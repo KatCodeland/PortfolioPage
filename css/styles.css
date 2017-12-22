@@ -1,0 +1,172 @@
+/* colour palette
+baby poweder - white  #FEFEFA
+purple #713554
+orange - #DA6E07
+dark blue - #05081F
+pale brown/orange - #D59646
+*/
+
+/*border box fix*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*Global styles*/
+body {
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+}
+h1, #headertext {
+	position: relative;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-weight: 900;
+
+}
+/*#headertext {
+	font-size: 20px;
+}*/
+
+ nav {
+	position: relative;
+    top: 60%;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+}
+
+h2 {
+	background: #05081F;
+} 
+
+h2, h3 {
+	color: #FEFEFA;
+	font-family: 'Poiret One', cursive, Arial,sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+a {
+	color: #d83343;
+}
+
+.col-narrow {
+	width: 30%;
+	float: left;
+}
+.col-wide {
+	width: 70%;
+	float: left;
+	padding-left: 3%;
+}
+.col2-narrow {
+	width: 50%;
+	float: left;
+	padding-right: 5%;
+	text-align: center;
+}
+.col2-wide {
+	width: 50%;
+	float: left;
+	padding-left: 5%;
+}
+.aboutme, .contact {
+	/*height:100vh;*/
+	background: #D59646;
+	color: #05081F;
+}
+.contact {
+	/*height: 75vh;*/
+	background: #D59646;
+	color: #05081F;
+}
+.content-wrap {
+	max-width: 100%;
+	margin: 0 auto;
+	padding:5%;
+}
+
+.portimg {
+	max-width: 100%;
+	max-height: 100%;
+}
+/*.portfolio {
+	height: 100vh;
+}*/
+.top {
+background: #05081F;
+color: #FEFEFA;
+/*font-size: 22px;*/
+padding:2%;
+border-radius: 10%;
+}
+/*header*/
+header {
+	background: url(../images/leap.jpg) no-repeat center center;
+	background-size: cover;
+	height: 100vh;
+	font-family: 'Poiret One', cursive, Arial,sans-serif;
+	color: #FEFEFA; /*if change this colour remember to change colour in nav to match*/
+		}
+
+
+/*footer*/
+footer {
+	color: #FEFEFA;
+	font-family: 'Poiret One', cursive, Arial,sans-serif;
+	font-weight: bold;
+	background: #05081F;
+	text-align: center;
+	
+}
+
+/*navigationbar*/
+nav {
+	color:#FEFEFA;
+}
+nav a {
+	border: 1px solid #FEFEFA;
+	/*padding: 10px 30px;
+	margin: 0 5px;*/
+	padding: 1%;
+	color: white;
+}
+
+/*about*/
+#authorphoto {
+	border-radius: 50%;
+}
+input {
+	margin-bottom: 2%;
+	width: 100%;
+}
+button {
+	margin-top:4%;
+	background: #05081F;
+	color: #FEFEFA;
+	}
+#messagebox {
+	height: 20vh;
+}
+.card h3{
+	color: #05081F;
+}
+.btn-warning {
+	background: #05081F;
+}
+.card-title {
+	margin-bottom: 0;
+}
+.card-block {
+	padding: 0;
+}
+.card-footer, .card-header {
+	background: #D59646;
+	color: #05081F;
+}
+.row {
+	max-height: 40%;
+	}

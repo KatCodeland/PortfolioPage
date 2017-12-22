@@ -1,0 +1,74 @@
+/* colour palette
+nav bar & headings storm cloud 4d6b6c
+header & footer winter dream 5d8971
+paragraphs zinnwaldite brown 2d1612
+old lavender 816a74
+about section EDF2F4
+contrast/call to action rusty red d83343
+*/
+
+/*Global styles*/
+body {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+h1, #headertext, nav {
+	position: relative;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+h2, h3 {
+	color: #4d6b6c;
+}
+p {
+}
+a {
+	color: #d83343;
+}
+.aboutme, .contact {
+	height:100vh;
+}
+.portimg {
+	height: 400px;
+}
+.portfolio{
+	height: 100vh;
+}
+/*header*/
+header {
+	background: url(../images/leap.jpg) no-repeat center center;
+	background-size: cover;
+	height: 100vh;
+	color: white;
+		}
+
+
+/*footer*/
+
+/*header & footer*/
+header, footer {
+
+}
+
+/*navigationbar*/
+nav {
+	
+}
+nav a {
+	color: white;
+}
+/*about*/
+.aboutme {
+	background: #EDF2F4;
+}
+img {
+	width: 100px;
+}
+
+/*portfolio*/
+
+/*contact*/
+.contact {
+	background: #EDF2F4;
+}
